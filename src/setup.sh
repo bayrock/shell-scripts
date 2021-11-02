@@ -1,5 +1,7 @@
 #!/bin/bash
-source exitonerror.sh
+
+#for f in ./includes; do source $f; done
+source ./includes/exit_on_error.sh
 
 # Setup essentials for new environments
 echo Initiating setup..

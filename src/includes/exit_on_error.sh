@@ -1,3 +1,5 @@
+#!/bin/bash
+
 exit_on_error() {
     exit_code=$1
     last_command=${@:2}
@@ -9,3 +11,4 @@ exit_on_error() {
 
 # enable !! command completion
 set -o history -o histexpand
+

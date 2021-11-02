@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check for updates
 apt-get update 
 # Apply the updates
@@ -6,3 +8,4 @@ apt-get upgrade --yes
 apt-get autoremove 
 # Clean up outdated cache
 apt-get autoclean
+
